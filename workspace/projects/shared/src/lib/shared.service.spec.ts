@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ShredService } from './shred.service';
+import { SharedService } from './shared.service';
 
 describe('ShredService', () => {
-  let service: ShredService;
+  let service: SharedService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ShredService);
+    service = TestBed.inject(SharedService);
   });
 
   it('should be created', () => {

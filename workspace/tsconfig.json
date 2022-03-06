@@ -7,9 +7,9 @@
         "dist/app-core/app-core",
         "dist/app-core"
       ],
-      "shred": [
-        "dist/shred/shred",
-        "dist/shred"
+      "shared": [
+        "dist/shared/shred",
+        "dist/shared"
       ]
     },
     "baseUrl": "./",

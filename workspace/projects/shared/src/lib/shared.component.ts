@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-shred',
+  selector: 'lib-shared',
   template: `
     <p>
-      shred works!
+      shared works!
     </p>
   `,
   styles: [
   ]
 })
-export class ShredComponent implements OnInit {
+export class SharedComponent implements OnInit {
 
   constructor() { }
 
